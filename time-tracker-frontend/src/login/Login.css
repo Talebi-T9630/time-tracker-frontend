@@ -1,32 +1,50 @@
 .input-label{
   margin-bottom: 0.4rem;
   color:black;
+  font-size: large;
+  font-weight: 600;
 }
-h1{
-  color:#F07B1B
-}
-.input-container {
+.input-container{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .input-field{
-  width: 18rem;
-  height: 2rem;
+  width: 25rem;
+  height: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  border: white;
+  color: black;
+  font-size: large;
+  padding: 0rem 1rem;
 }
 
 body{
-  /* background-color: #eeb93f; */
-  background-color: #ffffff;
+  /* background-image: linear-gradient(to right, rgb(233, 99, 99) , rgb(245, 190, 72)); */
+  /* background-image: linear-gradient(to right, rgb(255, 139, 139) , rgb(255, 212, 120)); */
+  background-image: linear-gradient(to right, rgb(255, 212, 120),rgb(255, 139, 139) );
+
+
+
+
+}
+.login-button{
+  margin: 5rem;
+  padding: 1rem 3rem;
 
 }
 
 .flip {
-  width: 5rem;
+  width: 8rem;
 	backface-visibility: visible !important;
 	animation: flip 2s ease;
 }
+.flip:hover{
+  animation: flip 3s ease infinite;
+}
+
 @keyframes flip {
 	0% {
 		transform: perspective(400px) rotateY(0);
@@ -50,7 +68,7 @@ body{
 	}
 }
 
-
+/* Curvy divider at the bottom */
 .custom-shape-divider-bottom-1715904476 {
   position: absolute;
   bottom: 0;
@@ -69,5 +87,6 @@ body{
 }
 
 .custom-shape-divider-bottom-1715904476 .shape-fill {
-  fill: #F07B1B;
+  fill: #ffffff60;
+
 }
