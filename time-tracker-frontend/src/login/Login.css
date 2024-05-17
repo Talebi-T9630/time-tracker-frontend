@@ -1,0 +1,73 @@
+.input-label{
+  margin-bottom: 0.4rem;
+  color:black;
+}
+h1{
+  color:#F07B1B
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input-field{
+  width: 18rem;
+  height: 2rem;
+}
+
+body{
+  /* background-color: #eeb93f; */
+  background-color: #ffffff;
+
+}
+
+.flip {
+  width: 5rem;
+	backface-visibility: visible !important;
+	animation: flip 2s ease;
+}
+@keyframes flip {
+	0% {
+		transform: perspective(400px) rotateY(0);
+		animation-timing-function: ease-out;
+	}
+	40% {
+		transform: perspective(400px) translateZ(150px) rotateY(170deg);
+		animation-timing-function: ease-out;
+	}
+	50% {
+		transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+		animation-timing-function: ease-in;
+	}
+	80% {
+		transform: perspective(400px) rotateY(360deg) scale(.95);
+		animation-timing-function: ease-in;
+	}
+	100% {
+		transform: perspective(400px) scale(1);
+		animation-timing-function: ease-in;
+	}
+}
+
+
+.custom-shape-divider-bottom-1715904476 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1715904476 svg {
+  position: relative;
+  display: block;
+  width: calc(134% + 1.3px);
+  height: 316px;
+}
+
+.custom-shape-divider-bottom-1715904476 .shape-fill {
+  fill: #F07B1B;
+}
